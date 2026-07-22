@@ -33,7 +33,7 @@
             writing-mode: vertical-lr;
             flex: 1; /*가로*/
         }
-        #pageone img { width: 50%; height: 50%; display: block;}
+        #pageone img { width: 50%; height: 50%; }
         @font-face {
             font-family: 'EbsHunminjeongeum';
             src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/EBSHunminjeongeum.woff') format('woff');
@@ -62,7 +62,7 @@
             <article id="pageone">
                 <h1>홍길동 웹페이지에</h1>
                 <h1>오신 것을 환영합니다</h1>
-                <img src="HongGilDong.jpg" alt="홍길동사진">
+                <img src="HongGilDong.jpg" alt="홍길동 사진">
             </article>
             <article id="pagetwo">
                 <h2>홍길동 자기소개서</h2>
@@ -76,9 +76,8 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row">시대</th> 
-                            <td>조선 세종대왕 시절</td>
-                            <td>조선 연산군 시절</td>
+                            <th scope="row">이름</th> 
+                            <td colspan="2">홍길동</td>
                         </tr>
                         <tr>
                             <th scope="row">나이</th> 
@@ -86,19 +85,24 @@
                             <td>50대~60대 (체포 당시 약 만 57세 추정)</td>
                         </tr>
                         <tr>
-                            <th scope="row">성격</th>
-                            <td>민중의 대변자, 도술을 부리는 영웅</td>
-                            <td>왕실 및 양반 기득권층을 위협했던 대형 도적</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">배경</th>
+                            <th scope="row">신분</th>
                             <td>이조판서의 서자</td>
                             <td>명문가 양반가문 출신(서얼 여부 불확실)</td>
                         </tr>
                         <tr>
+                            <th scope="row">시대</th> 
+                            <td>조선 세종대왕 시절</td>
+                            <td>조선 연산군 시절</td>
+                        </tr>
+                        <tr>
                             <th scope="row">주요활동</th> 
-                            <td>의적 패거리 결성,탐관오리 응징</td>
+                            <td>의적 패거리 결성, 탐관오리 응징</td>
                             <td>관가에 드나들며 강도질 감행</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">평가</th>
+                            <td>민중의 대변자, 도술을 부리는 영웅</td>
+                            <td>왕실 및 양반 기득권층을 위협했던 대형 도적</td>
                         </tr>
                         <tr>
                             <th scope="row">결말</th>
@@ -134,8 +138,8 @@
             </article>
             <article id="pagefour">
                 <h2>Q&A</h2>
-                <a href="mailto:teacher@example.com">홈페이지 담당자에게 메일 보내기</a><br>
-                <a href="tel:010-0000-0000">홈페이지 담당자에게 전화 걸기</a>
+                <a href="mailto:gildonghong@example.com">홈페이지 담당자에게 메일 보내기</a><br>
+                <a href="tel:010-2026-0722">홈페이지 담당자에게 전화 걸기</a>
             </article>
             <article id="pagefive">
                 <h2>참고사이트</h2>
@@ -146,7 +150,6 @@
                 </ol>
             </article>
         </section>
-        <aside></aside>
         <aside></aside>
     </main>
     <footer>
