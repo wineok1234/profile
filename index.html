@@ -39,11 +39,6 @@
             font-weight: normal;
             font-display: swap;
         }
-        section {
-            margin: 0;
-            display: flex;
-            justify-content: center;
-        }
         table, th, td { border: 1px solid black; border-collapse: collapse; }
         th, td { padding: 8px; text-align: center; }
     </style>
@@ -67,9 +62,10 @@
                 <h1>홍길동 웹페이지에</h1>
                 <h1>오신 것을 환영합니다</h1>
                 <img src="HongGilDong.jpg" alt="홍길동 사진">
+                <figcaption>사진: 말 타고 있는 홍길동</figcaption>
             </article>
             <article id="pagetwo">
-                <h2>홍길동 자기소개서</h2>
+                <h2><mark>홍길동 자기소개서</mark>/h2>
                 <table>
                     <thead>
                         <tr>
@@ -117,7 +113,7 @@
                 </table>
             </article>
             <article id="pagethree">
-                <h2>eBook 예약 신청서</h2>
+                <h2><mark>eBook 예약 신청서</mark></h2>
                 <form action="" method="get">
                     <label for="name">이름* </label>
                     <input type="text" id="name" placeholder="이름을 입력하세요"><br><br>
@@ -141,12 +137,12 @@
                 </form>
             </article>
             <article id="pagefour">
-                <h2>Q&A</h2>
+                <h2><mark>Q&A</mark></h2>
                 <a href="mailto:gildonghong@example.com">홈페이지 담당자에게 메일 보내기</a><br>
                 <a href="tel:010-2026-0722">홈페이지 담당자에게 전화 걸기</a>
             </article>
             <article id="pagefive">
-                <h2>참고사이트</h2>
+                <h2><mark>참고사이트</mark></h2>
                 <ol type="I">
                     <li><a href="https://encykorea.aks.ac.kr/Article/E0063994" target="_blank">한국민족문화대백과사전</a></li>
                     <li><a href="https://ko.wikipedia.org/wiki/%ED%99%8D%EA%B8%B8%EB%8F%99_(%EC%A1%B0%EC%84%A0)" target="_blank">위키백과</a></li>
